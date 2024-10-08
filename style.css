@@ -1,0 +1,138 @@
+/* css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: anton-sc-regular;
+  font-family: "Anton SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+p {
+  margin: 0.75rem 0;
+}
+
+/* utilitky */
+
+.text-primary {
+  color: crimson;
+  letter-spacing: 0.1rem;
+  cursor: crosshair;
+
+}
+
+/* navbar */
+
+#navbar,
+#navbar a {
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+}
+
+#navbar a {
+  text-align: center;
+}
+
+#navbar ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+#navbar a {
+  padding: 0.75rem;
+  margin: 0 0.25rem;
+}
+
+#navbar a:hover {
+  background-color: crimson;
+  border-radius: 5px;
+}
+
+#showcase {
+  background: #333 url(./images/showcase.jpg)no-repeat center center/cover;
+  color: antiquewhite;
+  height: 100vh;
+}
+
+#showcase a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  background-color: crimson;
+  padding: 1rem;
+  border-radius: 10px;
+  letter-spacing: 0.05rem;
+}
+
+#showcase a:hover {
+  background-color: rgb(146, 15, 41);
+}
+
+#showcase .showcase-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0 2rem;
+}
+
+.l-heading {
+  font-size: 4rem;
+  letter-spacing: 0.1rem;
+  color: whitesmoke;
+}
+.mheading {
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  color: whitesmoke;
+}
+
+.lead {
+  font-size: 2rem;
+  color: white;
+  letter-spacing: 0.05rem;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 2rem;
+}
+.textcenter {
+  text-align: center;
+}
+.py-1 { padding: 1.5rem 0;}
+.py-2 { padding: 2rem 0;}
+.py-3 { padding: 3rem 0;}
+
+#about .items {
+  display: flex;
+}
+#about .item {
+  text-align: center;
+  padding: 1rem;
+}
+
+.redIcons {
+  color: crimson;
+}
